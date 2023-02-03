@@ -1,0 +1,12 @@
+superuser = 2753364619
+selfName = "蕗蕨"
+
+[bot]
+plugin_dirs = ["plugins"]
+adapters = ["iamai.adapter.cqhttp","iamai.adapter.apscheduler"]
+
+[bot.log]
+verbose_exception = true
+
+[adapter.apscheduler]
+scheduler_config = { "apscheduler.timezone" = "Asia/Shanghai" }
