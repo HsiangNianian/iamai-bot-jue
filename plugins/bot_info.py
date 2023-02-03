@@ -1,9 +1,10 @@
 from iamai import Plugin
 
+ver = 1.0
 
-class hellobot(Plugin):
+class bot(Plugin):
     async def handle(self) -> None:
-        await self.event.reply(f"Hello, I am {self.config.selfName}!")
+        await self.event.reply(f"蕗蕨(v{ver}) for IAMAI(5.0.0)")
 
     async def rule(self) -> bool:
         if self.event.adapter.name != "cqhttp":
@@ -11,7 +12,6 @@ class hellobot(Plugin):
         if self.event.type != "message":
             return False
         return (
-            self.event.user_id == self.bot.config.superuser
-            and str(self.event.message).lower() == "hello"
+            str(self.event.message).lower() == ".bot"
         )
 
