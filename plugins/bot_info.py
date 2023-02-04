@@ -1,6 +1,6 @@
 from iamai import Plugin
 
-ver = 1.0
+ver = 1.03
 
 class bot(Plugin):
     async def handle(self) -> None:
