@@ -19,7 +19,7 @@ Cross-platform robot framework, mainly used for machine learning.
 
 - 👍 **Cross-platform**: [Onebot](https://iamai.retrofor.space/adapters/onebot), [Wechat](https://iamai.retrofor.space/adapters/wechat), [Twitter](https://iamai.retrofor.space/adapters/twitter), [Bilibili](https://iamai.retrofor.space/adapters/bilibili), [Github](https://iamai.retrofor.space/adapters/github), etc.
 
-## ⬇️ Instal
+## ⬇️ Install
 
 ```sh
 pip install iamai-bot-jue
