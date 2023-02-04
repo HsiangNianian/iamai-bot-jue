@@ -1,9 +1,9 @@
 import re
 import random
 
-from iamai.log import logger
+from iamaibot.log import logger
 
-from plugins.iamai_plugin_base import CommandPluginBase
+from plugins.iamaibot_plugin_base import CommandPluginBase
 
 from .config import Config
 
