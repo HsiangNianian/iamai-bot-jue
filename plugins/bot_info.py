@@ -4,7 +4,7 @@ ver = 1.0
 
 class bot(Plugin):
     async def handle(self) -> None:
-        await self.event.reply(f"蕗蕨(v{ver}) for IAMAI(5.0.0)")
+        await self.event.reply(f"蕗蕨(v{ver}) on IAMAI(5.0.0) for {self.event.adapter.name}")
 
     async def rule(self) -> bool:
         if self.event.adapter.name != "cqhttp":
